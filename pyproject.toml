@@ -1,0 +1,19 @@
+[project]
+name = "challenge1-data-science"
+version = "0.1.0"
+description = """
+Solução do primeiro desafio da Formação Cientista de Dados Alura One One.
+Análise de dados de vendas, desempenho e avaliações das 4 lojas fictícias da Alura Store
+para identificar a unidade com menor eficiência e formular uma recomendação
+sobre qual loja o Senhor João deve vender.
+"""
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pandas>=2.2.3",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+]
