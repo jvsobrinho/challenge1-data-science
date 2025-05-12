@@ -10,6 +10,7 @@ sobre qual loja o Senhor João deve vender.
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "matplotlib>=3.10.3",
     "pandas>=2.2.3",
 ]
 
